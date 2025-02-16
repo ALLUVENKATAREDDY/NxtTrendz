@@ -1,0 +1,37 @@
+.CartSummaryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+}
+.orderTotalContainer {
+  display: flex;
+  flex-direction: row;
+}
+.order-total-para {
+  font-family: roboto;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.totalHeading {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+}
+.checkoutButton {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  color: white;
+  background-color: #0b69ff;
+  border: none;
+}
