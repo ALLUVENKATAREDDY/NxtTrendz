@@ -1,14 +1,31 @@
 # Nxt Trendz - Cart Features
 
-In this project, we will implement the **Cart Features** for the **Nxt Trendz** application, applying concepts learned up until now.
+Here are some cart features for your NxtTrendz project, which is an E-Commerce Clone inspired by Amazon and Flipkart:
 
-### Refer to the video below:
+### NxtTrendz Cart Features:
 
-<div style="text-align: center;">
-  <video style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
-    <source src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-cart-features-output.mp4" type="video/mp4">
-  </video>
-</div>
+1. **Add to Cart Functionality**:
+   - Users can add products to the cart from the product details page.
+   - Each product added is stored in the cart, which can be viewed and managed on the cart page.
+
+2. **Remove from Cart**:
+   - Users can remove individual items from the cart.
+   - Items can be removed either by a "Remove" button or directly from the cart summary page.
+
+3. **Update Item Quantity**:
+   - Users can increase or decrease the quantity of items in their cart.
+   - The total price will update based on the quantity of each item.
+
+4. **Cart Persistence with Local Storage**:
+   - The cart is stored in the browser’s local storage, allowing users to retain items even if they leave the page or refresh it.
+   - The cart will also persist across sessions until the user logs out or clears the local storage.
+
+5. **Cart Summary**:
+   - The cart page will display a summary of the items added, showing product names, quantities, and total price.
+   - It will also show the total cost of all items in the cart, and any applicable discounts.
+
+
+These features will enhance the shopping experience on your NxtTrendz e-commerce platform. Let me know if you need help implementing any of these features!
 
 ### Design Files
 
